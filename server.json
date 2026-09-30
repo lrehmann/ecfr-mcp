@@ -1,0 +1,10 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.ecfr/ecfr",
+  "title": "eCFR.io Federal Regulations",
+  "description": "Search and read US federal regulations with legal and inline citations linking to ecfr.io.",
+  "version": "1.0.0",
+  "websiteUrl": "https://ecfr.io/developers",
+  "repository": { "url": "https://github.com/lrehmann/ecfr-mcp", "source": "github" },
+  "remotes": [{ "type": "streamable-http", "url": "https://ecfr.io/mcp" }]
+}

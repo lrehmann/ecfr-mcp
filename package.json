@@ -1,0 +1,16 @@
+{
+  "name": "@lrehmann/ecfr-mcp",
+  "version": "1.0.0",
+  "description": "Search and read US federal regulations with legal and inline citations linking to ecfr.io.",
+  "type": "module",
+  "license": "MIT",
+  "bin": { "ecfr-mcp": "dist/stdio.js" },
+  "files": ["dist", "server.json", "README.md", "LICENSE"],
+  "repository": { "type": "git", "url": "https://github.com/lrehmann/ecfr-mcp.git" },
+  "homepage": "https://ecfr.io/developers",
+  "mcpName": "io.ecfr/ecfr",
+  "scripts": { "build": "tsc", "test": "npm run build && node --test test/*.test.mjs", "start": "node dist/stdio.js" },
+  "dependencies": { "@modelcontextprotocol/sdk": "1.31.0", "zod": "^4.6.5" },
+  "devDependencies": { "@types/node": "^24.5.2", "typescript": "^5.8.3" },
+  "engines": { "node": ">=20" }
+}
