@@ -6,6 +6,8 @@ Search and read the US Code of Federal Regulations through [eCFR.io](https://ecf
 
 **Streamable HTTP:** `https://ecfr.io/mcp`
 
+Published in the [official MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers/io.ecfr%2Fecfr/versions/latest) as `io.ecfr/ecfr`.
+
 For clients accepting URL-based MCP configuration:
 
 ```json
